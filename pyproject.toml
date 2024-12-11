@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "groq-ia"
+version = "0.1.0"
+description = ""
+authors = ["Victor Ribeiro <victorcesargomesribeiro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+groq = "^0.13.0"
+streamlit = "^1.40.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
